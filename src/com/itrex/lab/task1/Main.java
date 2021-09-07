@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.regex.Pattern;
 
 /*
 * Задан текст на английском языке. Выделить все различные слова.
@@ -24,8 +23,7 @@ public class Main {
             if (result.containsKey(word)) {
                 int i = result.get(word);
                 result.put(word, ++i);
-            }
-            else {
+            } else {
                 result.put(word, 1);
             }
         }

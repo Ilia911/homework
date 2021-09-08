@@ -1,5 +1,7 @@
 package com.itrex.lab.task2.entity;
 
+import java.util.Objects;
+
 public abstract class Car {
 
     protected final String brand;
@@ -46,8 +48,8 @@ public abstract class Car {
         if (yearLaunched != car.yearLaunched) return false;
         if (numberOfWheels != car.numberOfWheels) return false;
         if (weight != car.weight) return false;
-        if (brand != null ? !brand.equals(car.brand) : car.brand != null) return false;
-        return model != null ? model.equals(car.model) : car.model == null;
+        if (!Objects.equals(brand, car.brand)) return false;
+        return Objects.equals(model, car.model);
     }
 
     @Override

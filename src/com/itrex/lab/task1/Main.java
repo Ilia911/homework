@@ -15,7 +15,7 @@ public class Main {
     private static final String TEST_TEXT = "Hello my friends! And hello my hat! It is my awesome hat? Is it my Hat?";
 
     public static void main(String[] args) {
-        List<String> words = Arrays.asList(TEST_TEXT.split("\\W+"));
+        String[] words = TEST_TEXT.split("\\W+");
 
         Map<String, Integer> result = new HashMap<>();
 

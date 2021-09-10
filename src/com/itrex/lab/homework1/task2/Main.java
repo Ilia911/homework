@@ -1,4 +1,4 @@
-package com.itrex.lab.task2;
+package com.itrex.lab.homework1.task2;
 
 /*Создать абстрактный класс Car, представляющий собой автомобиль.
         Добавить в него поля: марка, модель, год выпуска + несколько своих.
@@ -10,10 +10,10 @@ package com.itrex.lab.task2;
         вида автомобилей.
         Продемонстрировать работу гаража.*/
 
-import com.itrex.lab.task2.entity.Car;
-import com.itrex.lab.task2.entity.Garage;
-import com.itrex.lab.task2.entity.PassengerCar;
-import com.itrex.lab.task2.entity.SportCar;
+import com.itrex.lab.homework1.task2.entity.Car;
+import com.itrex.lab.homework1.task2.entity.Garage;
+import com.itrex.lab.homework1.task2.entity.PassengerCar;
+import com.itrex.lab.homework1.task2.entity.SportCar;
 
 public class Main {
 

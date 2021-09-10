@@ -1,9 +1,9 @@
-package com.itrex.lab.task2;
+package com.itrex.lab.homework1.task2;
 
-import com.itrex.lab.task2.entity.Bus;
-import com.itrex.lab.task2.entity.Garage;
-import com.itrex.lab.task2.entity.PassengerCar;
-import com.itrex.lab.task2.entity.Truck;
+import com.itrex.lab.homework1.task2.entity.Bus;
+import com.itrex.lab.homework1.task2.entity.Garage;
+import com.itrex.lab.homework1.task2.entity.PassengerCar;
+import com.itrex.lab.homework1.task2.entity.Truck;
 
 public class Helper {
 

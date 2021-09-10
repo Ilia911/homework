@@ -1,8 +1,6 @@
-package com.itrex.lab.task1;
+package com.itrex.lab.homework1.task1;
 
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /*

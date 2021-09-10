@@ -1,4 +1,4 @@
-package com.itrex.lab.task2.entity;
+package com.itrex.lab.homework1.task2.entity;
 
 import java.util.HashMap;
 import java.util.Map;

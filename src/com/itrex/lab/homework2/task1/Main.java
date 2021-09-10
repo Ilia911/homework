@@ -1,4 +1,8 @@
 package com.itrex.lab.homework2.task1;
+/*
+* Написать программу которая при запуске вызывает OutOfMemoryError: Metaspace.
+* В Readme описать условия запуска. (если такие будут, например jvm options)
+* */
 
 import java.util.Base64;
 import java.util.HashMap;
@@ -6,7 +10,9 @@ import java.util.HashMap;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        String clazzBase64 ="yv66vgAAADcADAEAEm15cGFja2FnZS9NeWNsYXNzMAcAAQEAEGphdmEvbGFuZy9PYmplY3QHAAMBAApTb3VyY2VGaWxlAQANTXljbGFzczAuamF2YQEABjxpbml0PgEAAygpVgwABwAICgAEAAkBAARDb2RlACEAAgAEAAAAAAABAAEABwAIAAEACwAAABEAAQABAAAABSq3AAqxAAAAAAABAAUAAAACAAY=";
+        String clazzBase64 ="yv66vgAAADcADAEAEm15cGFja2FnZS9NeWNsYXNzMAcAAQEAEGphdmEvbGFuZy9PYmplY3QHAAMBAApTb3Vy" +
+                "Y2VGaWxlAQANTXljbGFzczAuamF2YQEABjxpbml0PgEAAygpVgwABwAICgAEAAkBAARDb2RlACEAAgAEAAAAAAABAAEABwAIA" +
+                "AEACwAAABEAAQABAAAABSq3AAqxAAAAAAABAAUAAAACAAY=";
 
         byte[] compiledClazz = Base64.getDecoder().decode(clazzBase64);
         int classNameLength = Integer.valueOf(compiledClazz[12]);

@@ -7,3 +7,4 @@ homework 2: task 1:
 
 Запускал свой класс из командной строки:
 java -XX:MaxMetaspaceSize=100m com.itrex.lab.homework2.task1.Main
+![Скриншот 10-09-2021 18 10 10](https://user-images.githubusercontent.com/58484193/132923741-485bcd23-a73f-4242-89dd-9635931fb0c5.png)

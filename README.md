@@ -3,7 +3,7 @@
 homework 2: task 1:
 -Написать программу которая при запуске вызывает OutOfMemoryError: Metaspace.
 
-Для того, чтобы уменьшить размер Metaspace, использовал опцию -XX:MaxMetaspaceSize=100m, хотя и без этой опции ошибка генерируется, но позже.
+Для того, чтобы уменьшить размер Metaspace, использовал опцию -XX:MaxMetaspaceSize=100m, хотя и без этой опции ошибка генерируется, но позже. При -XX:MaxMetaspaceSize=10m получил ошибку OutOfMemoryError: Compressed Class Space
 
 Запускал свой класс из командной строки:
 java -XX:MaxMetaspaceSize=100m com.itrex.lab.homework2.task1.Main

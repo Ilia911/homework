@@ -17,21 +17,15 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        go();
-    }
 
-    private static void go() {
-        List<Integer> list = null;
-
-        while (list == null) {
-            list = generateList();
-        }
+        List<Integer> list;
+        list = generateList();
         System.out.println("Result valid list is: " + list);
     }
 
     private static List<Integer> generateList() {
-        List<Integer> generatedList = null;
 
+        List<Integer> generatedList;
         RandomNumberListGenerator generator = new RandomNumberListGenerator();
 
         try {
@@ -39,7 +33,7 @@ public class Main {
             ListValidator.validate(generatedList);
         } catch (EvenException ex) {
             evenExceptionLog(ex);
-            generatedList = null;
+            generatedList = generateList();
         }
         return generatedList;
 
